@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100vh;
+    grid-template: 1fr 2fr 1fr / 1fr 1fr 1fr 1fr;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: lightblue;
+    grid-column: 1/5;
+}
+header h1{
+    padding: 2rem;
+    justify-content: baseline;
+}
+main{
+    background: lightgray;
+    grid-column: 1/4;
+}
+.aside-content{
+    background: lightseagreen;
+    grid-column: 4/5;
+}
+footer{
+    background: wheat;
+    grid-column: 1/5;
+}
+.navigation{
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav{
+    background: navy;
+    text-decoration: none;
+}
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
