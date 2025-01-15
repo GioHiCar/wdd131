@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: darkolivegreen;
+    color: white;
+}
+header h1 {
+    margin: 0;
+}
+nav{
+    background-color: cadetblue;
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover{
+    border: 1px solid #fff;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 2fr 1fr ;
+}
+img{
+    margin: 1rem;
+}
+.portrait {
+    float: ;
+}
+.texas-flag{
+    float: left;
+}
+section{
+    border: 1px solid black;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+.card-header {
+    background: lightblue;
+    text-align: center;
+    margin: 0;
+}
+p{
+    padding: 1rem;
+}
+h2{
+    text-align: center;;
+}
