@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="styles/base.css">
     <meta name="author" content="Giovanni Cardenas">
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Giovanni Cardenas | Home page getting to know me">
+    <script src="scripts/getdates.js" defer></script>
     <title>WDD 131 - Dynamic Web Fundamentals - Giovanni Cardenas</title>
 </head>
 <body>
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals - Giovanni Cardenas</h1>
+        <h1>WDD 131 - Dynamic Web Fundamentals - <span id="name">Giovanni Cardenas</span></h1>
         <nav>
             <ul>
                 <li><a href="https://linkedin.com">My LinkedIn</a></li>
@@ -21,28 +22,30 @@
         </nav>
     </header>
     <main>
-        <section class="card about-me">
-            <h2 class="card-header">About Me</h2>
-            <image class="portrait" src="images/profile.JPG" alt="portrait" width="150" height="auto"></image>
-            <p>it netus elementum enim amet adipiscing aenean dis sollicitudin. Cursus condimentum natoque ligula interdum maecenas faucibus ornare suspendisse. Parturient sodales nisl tincidunt rutrum dolor tempor sociosqu suscipit. Nulla fames ante proin rhoncus lobortis; donec nullam metus. Ante potenti sociosqu egestas porta non nascetur.</p>
-            <h2>Texas, USA</h2>
-            <image class="texas-flag" src="images/texas-flag.webp" alt="texas-flag" width="150"></image>
-            <p>it netus elementum enim amet adipiscing aenean dis sollicitudin. Cursus condimentum natoque ligula interdum maecenas faucibus ornare suspendisse. Parturient sodales nisl tincidunt rutrum dolor tempor sociosqu suscipit. Nulla fames ante proin rhoncus lobortis.</p>
-        </section>
-        <section class="card resources">
-            <h2 class="card-header">Web Dev Resources</h2>
-            <div class="links">
-                <ul>
-                    <li><a>Source #1</a></li>
-                    <li><a>Source #2</a></li>
-                    <li><a>Source #3</a></li>
-                    <li><a>Source #4</a></li>
-                </ul>
-            </div>
-        </section>
+        <div class="grid">
+            <section class="card about-me">
+                <h2 class="card-header">About Me</h2>
+                <image class="portrait" src="images/profile.JPG" alt="portrait" width="150" height="auto"></image>
+                <p>it netus elementum enim amet adipiscing aenean dis sollicitudin. Cursus condimentum natoque ligula interdum maecenas faucibus ornare suspendisse. Parturient sodales nisl tincidunt rutrum dolor tempor sociosqu suscipit. Nulla fames ante proin rhoncus lobortis; donec nullam metus. Ante potenti sociosqu egestas porta non nascetur.</p>
+                <h2>Texas, USA</h2>
+                <image class="texas-flag" src="images/texas-flag.webp" alt="texas-flag" width="150"></image>
+                <p>it netus elementum enim amet adipiscing aenean dis sollicitudin. Cursus condimentum natoque ligula interdum maecenas faucibus ornare suspendisse. Parturient sodales nisl tincidunt rutrum dolor tempor sociosqu suscipit. Nulla fames ante proin rhoncus lobortis.</p>
+            </section>
+            <section class="card resources">
+                <h2 class="card-header">Web Dev Resources</h2>
+                <div class="links">
+                    <ul>
+                        <li><a>Source #1</a></li>
+                        <li><a>Source #2</a></li>
+                        <li><a>Source #3</a></li>
+                        <li><a>Source #4</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>&copy<span id="currentyear"> | </span>Giovanni Cardenas | Texas</p>
+        <p><span id="year"></span> | Giovanni Cardenas | Texas</p>
         <p id="lastModified"></p>
     </footer>
 </body>
