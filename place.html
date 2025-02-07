@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giovanni Cardenas">
+    <meta name="description" content="wesbite build from given wireframe ">
+    <link href="styles/place.css" rel="stylesheet">
+    <link href="styles/place-large.css" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <title>Country Page</title>
+</head>
+<body>
+    <header><h1>Mexico</h1></header>
+    <main>
+        <div class="hero">
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+            <source srcset="images/hero-medium.webp" media="(min-width: 550px)">
+            <img src="images/hero-small.webp" alt="Mexico Pyramid" width= "400" height="200">
+        </picture>
+        </div>
+        <div class="data-container">
+            <div>
+                <h2>Data</h2>
+            </div>
+            <h3>Area: <span>203,938 sq km</span></h3>
+            <h3>Population: <span>128,000,000</span></h3>
+            <h3>Capital: <span>Mexico City</span></h3>
+            <h3>Languages: <span>Spanish</span></h3>
+            <h3>Currency: <span>Peso</span></h3>
+            <h3>Time Zone: <span>CST</span></h3>
+        </div>
+        <div class="weather-container">
+            <div class="weather">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.png" width="80">
+            </div>
+            <h3>Temperature: <span>19 &degC</span></h3>
+            <h3>Conditions: <span>Sunny</span></h3>
+            <h3>Wind: <span>9 km/h</span></h3>
+            <h3>Wind Chill: <span id="windChill">9.8 C</span></h3>
+        </div>
+    </main>
+    <footer>
+        <p><span id="year"></span> | Giovanni Cardenas | Texas</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
