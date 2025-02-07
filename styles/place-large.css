@@ -37,4 +37,10 @@
         border-radius: .2rem;
         opacity: 0.8;
     }
+    .weather h2::after {
+        content: " 🌥️";    
+    }
+    .weather img {
+        display: none;
+    }
 }
