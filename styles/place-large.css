@@ -1,10 +1,14 @@
 @media (min-width: 500px){
+    :root {
+        --primary-color: rgb(70, 150, 70);
+        --secondary-color: rgb(250, 140, 120);
+    }
     .weather{
         display: flex;
         justify-content: center;
     }
     body {
-        background-color: rgb(70, 150, 70)
+        background-color: var(--primary-color);
     }
     .hero {
         position: relative;
@@ -23,7 +27,7 @@
         top: 5rem;
     }
     .weather-container div, .data-container h2 {
-        background-color:  rgb(70, 150, 70);
+        background-color:  var(--secondary-color);
         position: relative;
         right: 1.5rem;
         border-radius: .2rem;
