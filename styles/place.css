@@ -1,3 +1,10 @@
+
+.montserrat-mont {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
 * {
     margin: 0;
     padding: 0;

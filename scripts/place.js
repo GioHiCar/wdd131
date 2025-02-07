@@ -25,7 +25,7 @@ function calculateWindChill(temperature, windSpeed) {
 
     const windChillC = (windChillF - 32) * 5/9;
 
-  return Number(windChillC.toFixed(0)) + '&deg C';
+  return Number(windChillC.toFixed(0)) + ' &degC';
 }
 
 document.querySelector('#windChill').innerHTML = calculateWindChill(19, 9)
