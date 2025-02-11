@@ -12,3 +12,6 @@ short.innerHTML = `Last Modification: <span class="highlight">${new Intl.DateTim
     dateStyle: "short"
 }
 ).format(today)} ${hours}:${minutes}:${seconds}</span>`;
+
+const reveal = document.querySelector("#reveal");
+reveal.textContent = `🎉 Congratulations! You are having a <strong>hi</strong>!`;

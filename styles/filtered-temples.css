@@ -71,7 +71,7 @@ figure {
 }
 
 img {
-    box-shadow: 5px rgba(0, 0, 0, 0.9);
+    box-shadow: 5px rgba(0, 0, 0);
 }
 
 footer {
