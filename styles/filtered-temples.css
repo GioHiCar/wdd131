@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: darkkhaki;
+    padding: 1rem;
+}
+header h1 {
+    display: inline;
+}
+#hamburger {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: xx-large;
+    font-weight: 800;
+}
+#hamburger::before {
+    content: "≡";
+}
+#hamburger.open::before {
+    content: "X";
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    padding: .5rem;
+}
+a:hover {
+    color: white;
+}
+a:hover::before {
+    content: "*";
+}
+.no-show {
+    display: none;
+}
+main {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 850px;
+    background-color: rgb(240, 235, 195);
+}
+div {
+    background-color: rgb(240, 235, 195);
+}
+main h1 {
+    padding: 1rem;
+}
+.container {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 1rem;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    background-color: white;
+}
+
+img {
+    box-shadow: 5px rgba(0, 0, 0, 0.9);
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background: lightslategray;
+    color: white;
+}
+footer p {
+    font-size: smaller;
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+#lastModified {
+    font-size: x-small;
+}
