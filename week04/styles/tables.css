@@ -1,0 +1,40 @@
+body {
+    padding: 5%;
+}
+table {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-collapse: collapse;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: green;
+    font-size: small;
+}
+th, td {
+    padding: .5em 1em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    white-space: pre;
+}
+thead th, tbody td {
+    text-align: center;;
+}
+thead {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-size: larger;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+}
+th:first-child {
+    background-color: black;
+}
+th {
+    padding: 1rem;
+    font-size: larger;
+}
