@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #102B3F;
+    --secondary-color:  #F6F1D1;
+    --accent-color: #DD6E42;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+p {
+    padding: 1rem;
+}
+h2 {
+    padding: .5rem;
+}
+body {
+    font-family: "Nunito", serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+    background-color: lightgray;
+    color: #000;
+}
+header {
+    background-color: #102B3F;
+    color: var(--accent-color);
+    border: thin solid black;
+    display: flex;
+    flex-direction: row;
+}
+header h1 {
+    margin: 0;
+    padding: 1.5rem;
+}
+div {
+    background-color: #F6F1D1;
+    margin: .5rem .5rem 0rem .5rem;
+    border: 3px solid var(--primary-color);
+    border-radius: .5rem;;
+}
+div h2 {
+    color: #102B3F;
+}
+.box {
+    width: 80px;
+    height: 15px;
+    border: 2px solid black;
+}
+#primary .box {
+    background-color: var(--primary-color);
+}
+#secondary .box {
+    background-color: var(--secondary-color);
+}
+#accent .box {
+    background-color: var(--accent-color);
+}

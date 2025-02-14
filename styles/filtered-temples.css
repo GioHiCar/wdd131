@@ -58,6 +58,9 @@ div {
 main h1 {
     padding: 1rem;
 }
+h1, h2 {
+    padding: 1rem
+}
 .container {
     display: grid;
     gap: 1rem;
